@@ -1,5 +1,53 @@
-h1 {
-    border: 1px solid white
-    border-width: thick;
+body {
+  margin: 0;
+  margin-right: 0x;
+  padding: 0;
+}
 
+h1 {
+  border: 1px solid white border-width= thick;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 300%;
+  font-family: Agbalumo;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.5px;
+}
+nav {
+  background-color: #e6e6fa;
+  width: 1264px;
+  height: 125px;
+  /* margin-top: -40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 20%;
+  max-height: 20%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.img1 {
+  height: 300px;
 }

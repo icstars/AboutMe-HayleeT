@@ -89,33 +89,46 @@ console.log(Math.floor(454.34556))
 const me = ['Collin',2,3,4,5]
 let k = 0
 
-while (k != me.length) {
-    console.log(me[k])
-    k++
-}
- let me2 = ["Haylee", "Lollipop", "Acelee"]
- let k2 = me2.length -1
+//while (k != me.length) {
+ //   console.log(me[k])
+  //  k++
+//}
+ //let me2 = ["Haylee", "Lollipop", "Acelee"]
+ //let k2 = me2.length -1
 //  for(let k2 = me2.length -1; k > 0; x--)
 //  {console.log(me2[k2])} 
 
- let input = prompt("i play video games")
- let input2 = prompt("give me your age")
- console.log(input)
- alert("Hi my name is" + ' ' + input + ' ' +"and I am " + ' ' + input2 + "")
+//  let input = prompt("i play video games")
+//  let input2 = prompt("give me your age")
+//  console.log(input)
+//  alert("Hi my name is" + ' ' + input + ' ' +"and I am " + ' ' + input2 + "")
  
- alert("good for you")
+//  alert("good for you")
 
- alert(`Hi my name is ${input} and I am ${input2}`)
+//  alert(`Hi my name is ${input} and I am ${input2}`)
 
- let p = prompt('Guess a number!')
- while (p != 5) {
-    p = prompt("Guess a number!")
- }
- alert("Hahahaha")
+//  let p = prompt('Guess a number!')
+//  while (p != 5) {
+   //  p = prompt("Guess a number!")
+//  }
+//  alert("Hahahaha")
 
- let y  = prompt("You shall try again")
- while (y != 6){
-    y = prompt("You shall try again")
- }
+//  prompt("You shall try again")
+//  while (y != 6){
+//  y = prompt("You shall try again")
+//  }
+
+//  debugger;
+//  let i = "Hello";
+//  if (i === "Hello"){
+//    console.log("This is true");
+//  } else {
+//    console.log("This is false");
+//  }
+
+//  let dudes = ("Lucycan", "Collin", "Mark", "Cortez")
+//  console.log(dudes) 
+
+
 
   

@@ -73,3 +73,12 @@ if(ranNum ===0 && y){
 } else{
     console.log("Either or is good just give me one of them");
 }
+
+// while the guess is not equal to the target
+// prompt for a new guess
+// If the guess is less than the target
+// alert "too low!"
+// else If the guess is greater than the target
+// alert "too high!"
+// else
+// alert"You got it!"
