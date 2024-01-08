@@ -21,7 +21,7 @@ console.log(grabRatePhotoInput);
 
 const grabCommentInput = document.getElementById("commentInput"); //Your comment
 console.log(grabCommentInput);
-
+ 
 const grabSubmitBtn = document.getElementById("submitBtn"); //The submit button
 console.log(grabSubmitBtn);
 
@@ -41,3 +41,30 @@ grabSubmitBtn.addEventListener("click", (e) => { //setting the trigger to clicki
     grabRatePhotoInput.value = "";
     grabCommentInput.value = ""; //clear values
 });
+
+// const grabForm = document.querySelector("form")
+
+// const peopleArrayOfObjects = [];
+
+// grabForm.addEventListener( "submit", (e) => {
+// e.preventDefault();
+// const formData = newFormData(grabForm)
+
+// const firstName = formData.get("firstName")
+// console.log(firstName)
+
+// const lastName = formData.get("lastName")
+// console.log(lastName)
+
+// const birthday = formData.get("birthday")
+// console.log(birthday)
+
+// const newPerson = new Person(firstName, lastName, birthday)
+// console.log(newPerson)
+
+// peopleArrayOfObjects.push(newPerson);
+// console.log(peopleArrayOfObjects)
+
+
+
+// })
